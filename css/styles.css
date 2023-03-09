@@ -1,0 +1,58 @@
+body {
+    margin: 0;
+}
+
+.wrapper {
+    inline-size: 100vw;
+    block-size: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-image: url(/quote-img.jpg);
+    background-size: cover;
+    margin: 0;
+    
+}
+
+.container {
+    display: flex;
+    inline-size: 55rem;
+    block-size: 35rem;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    border: 1px solid black;
+    background-color: whitesmoke;
+    border-radius: 1rem;
+    box-shadow: 0 0 1rem 0.5rem rgba(0, 0, 0, 0.2);
+}
+
+.quote {
+    margin-block-start: 3rem;
+    margin-block-end: 2rem;
+    padding-inline: 1rem;
+}
+
+.btn {
+    inline-size: 15rem;
+    block-size: 2.5rem;
+    border-radius: 1rem;
+    box-shadow: 0 0 0.5rem 0.2rem rgba(0, 0, 0, 0.2);
+    cursor: pointer;
+    animation: bounce .3s infinite alternate;
+}
+@keyframes bounce {
+  to { transform: scale(1.1); }
+}
+
+
+.quote-box {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.motivation {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 1.3rem;
+}
